@@ -1,0 +1,12 @@
+.card{
+    background-color: rgb(173, 176, 180);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 414px;
+}
+img{
+    height: 50%;
+}
