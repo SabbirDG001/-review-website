@@ -12,15 +12,14 @@ const Home = () => {
     }
     );
     return (
-        <div>
-            <div className='image'>
-            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHlpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-            </div>
+        <div className='body'>
+            <div className='background'>
             <div className='heading'>
                 <h1>Welcome Sudents</h1>
                 <h3>Study with fun</h3>
                 <h4>Come to us, enroll exclusive courses and gain a huge amount of knowledge in this competiting world.</h4>
-                <p>Develop your talents by taking courses, earning certificates, and earning degrees from Learn With Fun.Different universities and companies instructors who will help you to build up yourself perfectly.</p>
+                <p>Develop your talents by taking courses, earning certificates, and earning degrees from <span>'Learn Zone'</span>.Different universities and companies instructors who will help you to build up yourself perfectly.</p>
+            </div>
             </div>
             <div>
                 <h2>Popular Courses:</h2>

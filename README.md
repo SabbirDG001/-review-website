@@ -1,4 +1,4 @@
-# Learn With Fun
+# Learn Zone
 
 # https://frosty-shaw-e0d4d2.netlify.app/
 1. See the teachers

@@ -13,7 +13,7 @@
     {
       "_id": "615b38d1f1c6acb9537140c0",
       "index": 1,
-      "picture": "./players/player-2png",
+      "picture": "./players/player-2.png",
       "age": 32,
       "name": "Britt Puckett",
       "gender": "male",
@@ -26,8 +26,8 @@
       "index": 2,
       "picture": "./players/player-3.png",
       "age": 40,
-      "name": "Jeanne Wilkins",
-      "gender": "female",
+      "name": "Jeann Wilkinson",
+      "gender": "male",
       "email": "jeannewilkins@comdom.com",
       "phone": "+1 (853) 513-2299",
       "address": "712 Temple Court, Yonah, Florida, 6832"
@@ -37,8 +37,8 @@
       "index": 3,
       "picture": "./players/player-4.png",
       "age": 38,
-      "name": "Susanne Thompson",
-      "gender": "female",
+      "name": "Susannon Thompson",
+      "gender": "male",
       "email": "susannethompson@comdom.com",
       "phone": "+1 (820) 527-2666",
       "address": "225 Drew Street, Savage, Utah, 1329"
@@ -59,8 +59,8 @@
       "index": 5,
       "picture": "./players/player-6.png",
       "age": 34,
-      "name": "Adrian Salazar",
-      "gender": "female",
+      "name": "Adrian Salazaror",
+      "gender": "male",
       "email": "adriansalazar@comdom.com",
       "phone": "+1 (916) 512-2734",
       "address": "247 Lawn Court, Hiseville, Kansas, 3695"

@@ -7,6 +7,10 @@
     border-radius: 10px;
     height: 414px;
 }
-img{
-    height: 50%;
+.image{
+    width: 275px;
+    height: 130px;
+}
+.btn{
+    margin-top: 10px;
 }

@@ -1,17 +1,24 @@
 import React from 'react';
+import { Card,Button } from 'react-bootstrap';
 import './Classes.css';
 
 const Course = (props) => {
-    const{name,views,img,rate,time}=props.classes;
+    const{name,views,picture,rate,price}=props.classes;
     return (
         <div>
-                <div className="card">
-                <img src={img} alt="" />
-                <h3>Name:{name}</h3>
-                <h3>Views:{views}</h3>
-                <h4>Rated:{rate}</h4>
-                <h4>Time:{time}</h4>
-                </div>
+                <Card style={{ width: '18rem',backgroundColor: 'lightgray', fontSize:'20px', fontWeight:'bold' }}>
+  <Card.Img variant="top" className="image" src={picture} alt=''/>
+  <Card.Body>
+    <Card.Title>{name}</Card.Title>
+    <Card.Text>Views:{views}
+    </Card.Text>
+    <Card.Text>Rated:{rate}
+    </Card.Text>
+    <Card.Text>Price:{price}$
+    </Card.Text>
+    <Button className="btn" variant="info">Details</Button>
+  </Card.Body>
+</Card>
         </div>
     );
 };
