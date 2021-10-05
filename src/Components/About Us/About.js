@@ -8,9 +8,11 @@ const About = () => {
             <Card className="text-center" style={{backgroundColor:'lightgray'}}>
                 <Card.Body>
                     <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>About Us</Card.Title>
+                    {/* introduction */}
                     <Card.Text style={{fontSize:'25px',fontWeight:'600'}}>
                     We are one of the top service providers in this plot. We will ensure you high possibility to get perfect knowledges and skills. We have higher ranked teachers from all over the world. Come to us and gain skills as much as you can.
                     </Card.Text>
+                    {/* facilities */}
                     <Card.Text style={{fontSize:'25px',fontWeight:'600'}}>
                     We will provide you:<br/>
                     Unlimited opportunity to ask about anything related courses,

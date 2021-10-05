@@ -14,6 +14,7 @@ const Courses = () => {
         <div>
             <h1>All courses::</h1>
             <div className='cardholder'>
+                {/* mapping all courses */}
             {
                 classes.map(classes=><Classes key={classes.id} classes={classes}></Classes>)
             }

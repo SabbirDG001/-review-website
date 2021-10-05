@@ -4,6 +4,7 @@ const Teacher = (props) => {
     const{name,picture,phone,email}=props.teacher;
     return (
         <div className='container'>
+            {/* all teachers */}
             <div>
                 <img src={picture} alt="" />
             </div>

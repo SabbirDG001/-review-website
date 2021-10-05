@@ -10,6 +10,7 @@ const Teachers = () => {
     })
     return (
         <div>
+            {/* mapping teachers */}
             {
                 teachers.map(teacher=><Teacher key={teacher._id} teacher={teacher}></Teacher>)
             }

@@ -16,28 +16,36 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+      {/* routing */}
       <Router>
+        {/* header */}
         <Header></Header>
         <Switch>
+          {/* home */}
           <Route exact path="/">
             <Home></Home>
           </Route>
           <Route path="/home">
             <Home></Home>
           </Route>
+          {/* courses */}
           <Route path="/courses">
             <Courses></Courses>
           </Route>
+          {/* teachers */}
           <Route path="/teachers">
             <Teachers></Teachers>
           </Route>
+          {/* about page */}
           <Route path="/about">
             <About></About>
           </Route>
+          {/* not found page */}
           <Route path="/*">
             <Notfound></Notfound>
           </Route>
         </Switch>
+        {/* footer */}
         <Footer></Footer>
       </Router>
     </div>

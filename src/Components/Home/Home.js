@@ -14,6 +14,7 @@ const Home = () => {
     return (
         <div className='body'>
             <div className='background'>
+                {/* heading part */}
             <div className='heading'>
                 <h1>Welcome Sudents</h1>
                 <h3>Study with fun</h3>
